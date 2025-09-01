@@ -54,7 +54,7 @@ The build will be generated inside the `dist/` folder.
 server/
  └── src/
      ├── index.ts        # Entry point
-     ├── routes/         # API routes & # Business logic
+     ├── routes/         # API routes & Business logic
      ├── models/         # Mongoose models
      └── middleware/     # Authentication, validation, etc.
 ```
