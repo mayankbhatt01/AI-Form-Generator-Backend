@@ -3,7 +3,7 @@ import { Form } from "../models/form";
 import { Submission } from "../models/submission";
 import { nanoid } from "nanoid";
 import { authMiddleware, AuthRequest } from "../middleware/auth";
-import { generateFormSchema } from "../server/src/service/gemini";
+import { generateFormSchema } from "../service/gemini";
 import express from "express";
 import multer from "multer";
 import cloudinary from "../config/cloudinary";
