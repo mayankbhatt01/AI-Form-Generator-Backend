@@ -24,12 +24,8 @@ Create a `.env` file in the root of the project and add the following:
 
 ```env
 PORT=4000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-GOOGLE_API_KEY=your_google_api_key
+MONGO_URI=mongodb+srv://mankubhatt2005_db_user:8mWoWlSwg0zcyXjP@cluster0.m1mtvpo.mongodb.net/
+JWT_SECRET=AIzaSyBP1KYVlqViO0xadqYKiAklDcoaKQE0lDI
 ```
 
 ⚠️ Replace the values with your own credentials.
@@ -58,8 +54,7 @@ The build will be generated inside the `dist/` folder.
 server/
  └── src/
      ├── index.ts        # Entry point
-     ├── routes/         # API routes
-     ├── controllers/    # Business logic
+     ├── routes/         # API routes & # Business logic
      ├── models/         # Mongoose models
      └── middleware/     # Authentication, validation, etc.
 ```
